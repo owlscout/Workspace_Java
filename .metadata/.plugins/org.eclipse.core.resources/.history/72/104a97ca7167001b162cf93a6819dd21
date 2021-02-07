@@ -1,0 +1,14 @@
+package com.j05;
+
+public class Beaver extends Animal {
+	
+	public Beaver() {
+		System.out.println("비버");
+	}
+	
+	public void bark() {
+		super.bark();
+		System.out.println("아-악!");
+	}
+	
+}

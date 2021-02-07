@@ -1,0 +1,22 @@
+package com.j05;
+
+import com.test02.Animal;
+import com.test02.Cat;
+import com.test02.Dog;
+
+public class MTest {
+
+	public static void main(String[] args) {
+		
+		// beaver eagle 객체를 만들어서
+		// 비버의 울음소리 : ??
+		// 독수리의 울음소리 : ??
+		Animal animal = new Beaver();
+		animal.bark();
+		
+		animal = new Eagle();
+		animal.bark();
+		
+	}
+	
+}

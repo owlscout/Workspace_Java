@@ -1,0 +1,43 @@
+package com.j03;
+
+import java.util.Scanner;
+
+public class Control {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("i 입력 : ");
+		int i = sc.nextInt();
+		System.out.println("j 입력 : ");
+		int j = sc.nextInt();
+		
+		//i 의 j제곱을 리턴하는 메소드
+		System.out.println("for : " + forTest(i, j));
+		System.out.println("while : " + whileTest(i, j));
+	}
+	
+	public static int forTest(int i, int j) {
+		int sum = 1;
+		
+		for(int a = 0; a < j; a++) {
+			sum *= i;
+		}
+		
+		return sum;
+	}
+	
+	public static int whileTest(int i, int j) {
+		int a = 0;
+		int sum = 1;
+		
+		while(a < j) {
+			a++;
+			sum *= i;
+		}
+		
+		return sum;
+	}
+	
+	
+}

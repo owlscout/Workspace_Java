@@ -1,0 +1,5 @@
+package com.j05;
+
+public class Engle extends Animal {
+
+}

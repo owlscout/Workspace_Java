@@ -1,0 +1,13 @@
+package com.j05;
+
+public class Animal {
+
+	private String kind;
+	private int age;
+	
+	public Animal(String kind, int age) {
+		this.kind = kind;
+		this.age = age;
+	}
+	
+}
